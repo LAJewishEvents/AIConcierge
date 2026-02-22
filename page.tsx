@@ -1,10 +1,10 @@
 import { Shell } from "@/components/Shell";
-import { EventsPanel } from "@/components/eventsPanel";
+import { ProfilePanel } from "@/components/profilePanel";
 
-export default function EventsPage() {
+export default function ProfilePage() {
   return (
     <Shell>
-      <EventsPanel />
+      <ProfilePanel />
     </Shell>
   );
 }
